@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.a52sxq
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
