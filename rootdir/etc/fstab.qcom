@@ -40,6 +40,7 @@ system	/system	f2fs	ro	wait,avb=vbmeta,logical,first_stage_mount,avb_keys=/avb/q
 vendor	/vendor	ext4	ro	wait,avb,logical,first_stage_mount
 product	/product	ext4	ro	wait,avb,logical,first_stage_mount
 odm	/odm	ext4	ro	wait,avb,logical,first_stage_mount
+/dev/block/bootdevice/by-name/boot                      /boot                  emmc    defaults                                             defaults
 /dev/block/by-name/metadata	/metadata	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,sync	wait,formattable,first_stage_mount,check
 /dev/block/platform/soc/1d84000.ufshc/by-name/prism     /prism                 ext4    ro,barrier=1,discard                                 nofail,avb,first_stage_mount
 /dev/block/platform/soc/1d84000.ufshc/by-name/optics    /optics                ext4    ro,barrier=1,discard                                 nofail,avb,first_stage_mount
@@ -59,4 +60,3 @@ odm	/odm	ext4	ro	wait,avb,logical,first_stage_mount
 # VOLD:samsung/common/fstab_non_AB.samsung
 /devices/platform/soc/8804000.sdhci/mmc_host*           auto    vfat    defaults    voldmanaged=sdcard:auto
 /devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*   auto    auto    defaults    voldmanaged=usb:auto
-
