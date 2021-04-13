@@ -15,6 +15,11 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    qcom.fmradio
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
