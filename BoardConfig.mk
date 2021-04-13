@@ -34,6 +34,9 @@ BOARD_VENDOR := samsung
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_a52sxq
 TARGET_RECOVERY_DEVICE_MODULES := libinit_a52sxq
