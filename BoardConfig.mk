@@ -92,6 +92,7 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
