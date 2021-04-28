@@ -177,3 +177,10 @@ on post-fs-data && property:ro.csc.sales_code=TMB
 
 on property:sys.sysctl.zram_balance_ratio=*
     write /sys/module/zram/parameters/zram_balance_ratio ${sys.sysctl.zram_balance_ratio}
+
+on late-fs
+    start surfaceflinger
+    start bootanim
+    start vendor.qti.hardware.display.composer
+    start vendor.qti.hardware.display.allocator
+
