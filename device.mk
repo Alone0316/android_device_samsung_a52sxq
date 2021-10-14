@@ -408,6 +408,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     libwpa_client \
     wpa_cli \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
