@@ -1650,10 +1650,6 @@ vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# Vibrator
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/vibrator.default.so
-
 # Wi-Fi
 vendor/bin/hw/android.hardware.wifi@1.0-service
 vendor/bin/hw/hostapd
@@ -1714,7 +1710,6 @@ vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
 vendor/bin/hw/vendor.samsung.hardware.sysinput@1.2-service
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.vibrator-service
 vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/bin/KmInstallKeybox
@@ -1874,7 +1869,6 @@ vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.snap@1.2-service.rc
 vendor/etc/init/vendor.samsung.hardware.sysinput@1.2-service.rc
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.vibrator-default.rc
 vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor_flash_recovery.rc
@@ -1960,7 +1954,6 @@ vendor/etc/vintf/manifest/sec_c2_manifest_default0.xml
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
-vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml
 vendor/etc/vintf/manifest_lahaina.xml
@@ -2767,7 +2760,6 @@ vendor/lib64/vendor.samsung.hardware.snap@1.2.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.0.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.1.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.2.so
-vendor/lib64/vendor.samsung.hardware.vibrator-V3-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.wifi@2.0.so
 vendor/lib64/vendor.samsung.hardware.wifi@2.1.so
 vendor/lib64/vendor.samsung.hardware.wifi@2.2.so

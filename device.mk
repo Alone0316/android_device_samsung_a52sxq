@@ -200,6 +200,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor
 
+# Vibrator
+PRODUCT_PACKAGES += \
+   android.hardware.vibrator@1.3-service.a52sxq
+
 # Usb debugging
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=log \
