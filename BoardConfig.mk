@@ -31,6 +31,9 @@ TARGET_NO_BOOTLOADER := true
 # Board
 BOARD_VENDOR := samsung
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Build
 BUILD_BROKEN_DUP_RULES := true
 
