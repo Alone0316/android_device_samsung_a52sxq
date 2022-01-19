@@ -252,7 +252,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-   android.hardware.vibrator@1.3-service.a52sxq
+   android.hardware.vibrator-service.a52sxq
 
 # Usb debugging
 PRODUCT_PROPERTY_OVERRIDES += \
