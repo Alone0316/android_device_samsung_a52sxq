@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    libbthost_if \
+    libbthost_if.vendor \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth@1.0.vendor
