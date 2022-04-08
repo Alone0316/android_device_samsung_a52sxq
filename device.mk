@@ -135,5 +135,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Usb debugging
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=log \
+    ro.secure=0 \
+    ro.debuggable=1 \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a52sxq/a52sxq-vendor.mk)
