@@ -71,7 +71,6 @@ persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.enableadvancedscan=true
-ro.adb.secure=1
 ro.af.client_heap_size_kbyte=7168
 ro.apk_verity.mode=2
 ro.bluetooth.a2dp_offload.supported=true
