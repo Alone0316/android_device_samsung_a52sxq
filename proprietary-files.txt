@@ -1960,8 +1960,6 @@ vendor/etc/media_shima_v3/video_system_specs.json
 vendor/etc/media_yupik_iot/video_system_specs.json
 vendor/etc/media_yupik_v0/video_system_specs.json
 vendor/etc/media_yupik_v1/video_system_specs.json
-vendor/etc/midas/SRIBMidas_aiBLURDETECT_Stage1_FP32_V130.caffemodel
-vendor/etc/midas/SRIBMidas_aiBLURDETECT_Stage2_FP32_V130.caffemodel
 vendor/etc/midas/SRIBMidas_aiDEBLUR_INT16_V0132_sm7325_snpe1502.dlc
 vendor/etc/midas/SRIBMidas_aiDENOISE_FP16_V900.caffemodel
 vendor/etc/midas/SRIBMidas_aiHDR_Global_INT16_V430_sm7325_snpe1502.dlc
