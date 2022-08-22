@@ -34,7 +34,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+# RRO Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
