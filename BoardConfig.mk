@@ -31,6 +31,9 @@ TARGET_NO_BOOTLOADER := true
 # Board
 BOARD_VENDOR := samsung
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
