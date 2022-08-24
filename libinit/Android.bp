@@ -16,6 +16,7 @@
 cc_library_static {
     name: "libinit_a52sxq",
     srcs: ["init_a52sxq.cpp"],
+    shared_libs: ["libbase"],
     recovery_available: true,
     include_dirs: [
         "system/libbase/include",
