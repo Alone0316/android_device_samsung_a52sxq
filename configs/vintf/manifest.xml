@@ -533,17 +533,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.wifi.supplicant</name>
-        <transport>hwbinder</transport>
-        <version>3.1</version>
-        <interface>
-            <name>ISehSupplicant</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <sepolicy>
-        <version>30.0</version>
     </sepolicy>
     <kernel target-level="5"/>
 </manifest>
