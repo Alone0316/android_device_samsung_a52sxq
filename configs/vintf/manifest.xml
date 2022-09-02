@@ -533,6 +533,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    </sepolicy>
-    <kernel target-level="5"/>
 </manifest>
