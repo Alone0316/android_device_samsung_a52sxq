@@ -1132,7 +1132,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.samsung.hardware.hyper</name>
-        <version>2</version>
+        <version>1</version>
         <interface>
             <name>ISehHyPer</name>
             <instance>default</instance>
