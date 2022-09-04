@@ -164,6 +164,14 @@
             <instance>wigigp2p</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.wifi</name>
+        <version>1.5</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>com.dsi.ant</name>
         <version>1.0</version>
@@ -1026,6 +1034,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>vendor.qti.spu</name>
+        <version>1.1</version>
+        <interface>
+            <name>ISPUManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.audio</name>
         <version>1.0</version>
@@ -1361,6 +1377,7 @@
     <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.wifi.hostapd</name>
         <version>4.0</version>
+        <version>3.0</version>
         <interface>
             <name>ISehHostapd</name>
             <instance>default</instance>
