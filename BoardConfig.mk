@@ -68,6 +68,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 
+# Keymaster
+TARGET_KEYMASTER_VARIANT := samsung
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
