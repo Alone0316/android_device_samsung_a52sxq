@@ -65,6 +65,9 @@ TARGET_KERNEL_CONFIG := vendor/a52sxq_eur_open_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a52sxq
 TARGET_KERNEL_CLANG_COMPILE := true
 
+# Kernel modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
