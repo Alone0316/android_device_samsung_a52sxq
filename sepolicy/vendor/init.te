@@ -1,0 +1,3 @@
+allow init sysfs:file { open  write };
+allow init vendor_file:dir create;
+allow kernel sysfs:file { open  read };
