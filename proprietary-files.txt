@@ -1114,12 +1114,6 @@ vendor/firmware/yupik_ipa_fws.mdt
 vendor/lib64/libkeymaster_helper.so
 vendor/lib64/libskeymaster4device.so
 
-# Light
-vendor/lib/hw/lights.lahaina.so
-vendor/lib/hw/lights.qcom.so
-vendor/lib64/hw/lights.lahaina.so
-vendor/lib64/hw/lights.qcom.so
-
 # Local time
 vendor/lib/hw/local_time.default.so
 vendor/lib64/hw/local_time.default.so
@@ -1724,7 +1718,6 @@ vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hyper-service
-vendor/bin/hw/vendor.samsung.hardware.light-service
 vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
@@ -1893,7 +1886,6 @@ vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/init.vendor.sysfw.rc
 vendor/etc/init/init.vendor.wlan.rc
-vendor/etc/init/lights-default-sec.rc
 vendor/etc/init/mppserver.rc
 vendor/etc/init/pa_daemon_qsee.rc
 vendor/etc/init/power-default-sec.rc
@@ -2004,7 +1996,6 @@ vendor/etc/sysconfig/vendor-apex-allowlist.xml
 vendor/etc/vintf/manifest/deviceManifest.xml
 vendor/etc/vintf/manifest/engmode_manifest.xml
 vendor/etc/vintf/manifest/hyper-default-sec.xml
-vendor/etc/vintf/manifest/lights-default-sec.xml
 vendor/etc/vintf/manifest/manifest.xml
 vendor/etc/vintf/manifest/mppserver.xml
 vendor/etc/vintf/manifest/power-samsung.xml
@@ -2834,7 +2825,6 @@ vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
 vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so
 vendor/lib64/vendor.samsung.hardware.hqm@1.0.so
-vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.mpp-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
