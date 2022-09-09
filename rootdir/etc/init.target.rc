@@ -233,6 +233,9 @@ on property:service.camera.running=1
 on property:service.camera.running=0
     write /sys/module/lpm_levels/parameters/sleep_disabled N
 
+on post-fs-data
+    mkdir /data/vendor/gatekeeper 0770 system system
+
 # Logcat Services
 service boot_log /system/bin/logcat -b all -D -f /data/media/0/boot_log_full.txt
     class main
