@@ -127,6 +127,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.recovery.qcom.rc \
     init.recovery.samsung.rc \
+    ueventd.qcom.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
