@@ -166,5 +166,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     persist.sys.usb.config=mtp,adb
 
+# Wifi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a52sxq/a52sxq-vendor.mk)
