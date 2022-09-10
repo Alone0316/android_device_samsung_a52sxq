@@ -11,8 +11,6 @@ soc_id=`cat /sys/devices/soc0/soc_id` 2> /dev/null
 if [ "$soc_id" -eq 339 ] || [ "$soc_id" -eq 356 ] || [ "$soc_id" -eq 361 ] || [ "$soc_id" -eq 415 ] || [ "$soc_id" -eq 439 ] || [ "$soc_id" -eq 456 ] || [ "$soc_id" -eq 501 ] || [ "$soc_id" -eq 502 ]; then
     enable vendor.keymaster-sb-4-0
     start vendor.keymaster-sb-4-0
-    enable vendor.authsecret.qti-1-0
-    start vendor.authsecret.qti-1-0
 else
     setprop vendor.gatekeeper.disable_spu true
 fi
