@@ -150,6 +150,12 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.configstore</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ISurfaceFlingerConfigs/default</fqname>
+        <fqname>@1.1::ISurfaceFlingerConfigs/default</fqname>
+    </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.vibrator</name>
         <interface>
