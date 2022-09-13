@@ -41,20 +41,7 @@ vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 # Audio
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
-vendor/bin/hw/android.hardware.audio.service
-vendor/etc/init/android.hardware.audio.service.rc
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib/hw/android.hardware.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.audio@4.0-impl.so
-vendor/lib/hw/android.hardware.audio@5.0-impl.so
-vendor/lib/hw/android.hardware.audio@6.0-impl.so
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/lib_SamsungRec_07010.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
 vendor/lib/lib_soundaliveresampler.so
@@ -69,17 +56,6 @@ vendor/lib/libsecnativefeature.so
 vendor/lib/libspeakercalibration.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libfloatingfeature.so
 vendor/lib64/libsecaudioinfo.so
@@ -89,79 +65,35 @@ vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 
 # Audio (FX modules)
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudioeffectoffload.so
-vendor/lib/soundfx/libaudiosaplus_sec.so
-vendor/lib/soundfx/libdynproc.so
 vendor/lib/soundfx/libmysound.so
-vendor/lib/soundfx/libmyspace.so
-vendor/lib/soundfx/libplaybackrecorder.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib/soundfx/libvolumelistener.so
-vendor/lib/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib/lib_SoundAlive_play_plus_ver400.so
-vendor/lib/lib_SoundBooster_ver1050.so
-vendor/lib/libprofileparamstorage.so
 vendor/lib/libsecaudiocoreutils.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudioeffectoffload.so
-vendor/lib64/soundfx/libaudiosaplus_sec.so
-vendor/lib64/soundfx/libdynproc.so
 vendor/lib64/soundfx/libmysound.so
-vendor/lib64/soundfx/libmyspace.so
-vendor/lib64/soundfx/libplaybackrecorder.so
 vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib64/lib_SoundAlive_play_plus_ver400.so
-vendor/lib64/lib_SoundBooster_ver1050.so
-vendor/lib64/libprofileparamstorage.so
 vendor/lib64/libsecaudiocoreutils.so
 
 # Audio configs
-etc/audio_effects.conf
-etc/audio_effects_common.conf
 vendor/etc/a2dp_audio_policy_configuration.xml
-vendor/etc/audio_effects.conf
-vendor/etc/audio_effects_common.conf
-vendor/etc/audio_effects_sec.xml
 vendor/etc/audio_platform_info_hdk.xml
 vendor/etc/audio_platform_info_qrd.xml
-vendor/etc/audio_policy_configuration_base.xml
-vendor/etc/audio_policy_configuration_sec.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/audio_tuning_mixer.txt
-vendor/etc/default_volume_tables.xml
 vendor/etc/hearing_aid_audio_policy_configuration.xml
 vendor/etc/mixer_paths_cdp.xml
 vendor/etc/mixer_paths_hdk.xml
 vendor/etc/mixer_paths_hhg.xml
 vendor/etc/mixer_paths_qrd.xml
 vendor/etc/playback_record_audio_policy_configuration.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
-vendor/etc/situation_audio_policy_volumes_sec.xml
 vendor/etc/sound_trigger_mixer_paths_cdp.xml
 vendor/etc/sound_trigger_mixer_paths_hdk.xml
 vendor/etc/sound_trigger_mixer_paths_hhg.xml
 vendor/etc/sound_trigger_mixer_paths_qrd.xml
 vendor/etc/tms_audio_policy_configuration.xml
-vendor/etc/usb_audio_policy_configuration.xml
 
 # Authsecret
 vendor/lib/libkeymasterdeviceutils.so
@@ -988,27 +920,14 @@ lib/libdatasource.so
 lib/libdatasource_local_cache.so
 lib/libdmabufheap.so
 lib/libhdcp2.so
-lib/libmedia_codeclist.so
 lib/libomafldrm.so
 lib/libsavscmn.so
-lib/libsfextcp.so
-lib/libstagefright_bufferpool@2.0.1.so
-lib/libstagefright_codecbase.so
-lib/libstagefright_framecapture_utils.so
-lib/libstagefright_hdcp.so
-lib/libstagefright_httplive_sec.so
 lib64/libQSEEComAPI_system.so
 lib64/libdatasource.so
 lib64/libdatasource_local_cache.so
 lib64/libdmabufheap.so
-lib64/libmedia_codeclist.so
 lib64/libomafldrm.so
 lib64/libsavscmn.so
-lib64/libsfextcp.so
-lib64/libstagefright_bufferpool@2.0.1.so
-lib64/libstagefright_codecbase.so
-lib64/libstagefright_framecapture_utils.so
-lib64/libstagefright_httplive_sec.so
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/lib/libFrucSSMLib.so
@@ -1039,7 +958,6 @@ vendor/lib/libcodecsolutionhelper_vendor.so
 vendor/lib/libplatformconfig.so
 vendor/lib/libpredeflicker_native.so
 vendor/lib/libsavscmn.so
-vendor/lib/libstagefright_bufferpool@2.0.1.so
 vendor/lib/libstagefright_bufferqueue_helper_vendor.so
 vendor/lib/libstagefright_omx_vendor.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
@@ -1068,7 +986,6 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libcodecsolutionhelper_vendor.so
 vendor/lib64/libplatformconfig.so
 vendor/lib64/libsavscmn.so
-vendor/lib64/libstagefright_bufferpool@2.0.1.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libstagefrighthw.so
 vendor/lib64/vintf-codecsolution-V2-ndk_platform.so
@@ -1451,15 +1368,7 @@ vendor/etc/sensors/sns_reg_config
 # Soundtrigger
 system_ext/lib/vendor.qti.voiceprint@1.0.so
 system_ext/lib64/vendor.qti.voiceprint@1.0.so
-vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib/hw/sound_trigger.primary.lahaina.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib64/hw/sound_trigger.primary.lahaina.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Thermal
@@ -1576,8 +1485,6 @@ vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
 vendor/bin/add.pb
 vendor/bin/applypatch
 vendor/bin/athdiag
-vendor/bin/audioadsprpcd
-vendor/bin/audioflacapp
 vendor/bin/chattr
 vendor/bin/checkpoint_gc
 vendor/bin/cnss-daemon
@@ -1681,7 +1588,6 @@ vendor/etc/init/init.vendor.sysfw.rc
 vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/init/pa_daemon_qsee.rc
 vendor/etc/init/power-default-sec.rc
-vendor/etc/init/vendor.qti.audio-adsprpc-service.rc
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
@@ -1733,7 +1639,6 @@ vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml
 vendor/etc/vintf/manifest_lahaina.xml
 vendor/etc/vintf/manifest_shima.xml
 vendor/etc/vintf/manifest_yupik.xml
-vendor/etc/SoundBoosterParam.txt
 vendor/etc/btcon.json
 vendor/etc/cacert_location.pem
 vendor/etc/charger_fw_fstab.qti
@@ -1857,8 +1762,6 @@ vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
-vendor/lib/hw/audio.sec_primary.default.so
-vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
@@ -1930,11 +1833,8 @@ vendor/lib/libarcsoft_picportrait_video.so
 vendor/lib/libarcsoft_super_night_raw.so
 vendor/lib/libarcsoft_video_super_night.so
 vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudiofoundation.so
 vendor/lib/libaudioparsers.so
-vendor/lib/libbase64.so
 vendor/lib/libbatching.so
 vendor/lib/libbatterylistener.so
 vendor/lib/libbeautyshot.arcsoft.so
@@ -2035,7 +1935,6 @@ vendor/lib/libmdsprpc.so
 vendor/lib/libmemutils.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libmm-hdcpmgr.so
-vendor/lib/libmm-omxcore.so
 vendor/lib/libmmosal.so
 vendor/lib/libmulawdec.so
 vendor/lib/libmultiobject_tracker.so
@@ -2096,15 +1995,12 @@ vendor/lib/libsecure_storage.so
 vendor/lib/libsecureui_svcsock.so
 vendor/lib/libsegmentationeffect.uniplugin@1.0.so
 vendor/lib/libsegmentationeffect_capture.uniplugin@1.0.so
-vendor/lib/libsfplugin_ccodec_utils.so
 vendor/lib/libshotsuggestion.so
 vendor/lib/libshotsuggestion_engines.so
 vendor/lib/libsmartfocus_interface.so
-vendor/lib/libsmemlog.so
 vendor/lib/libsmwrapper.so
 vendor/lib/libsn100u_fw.so
 vendor/lib/libsnaace.so
-vendor/lib/libsnamrnb.so
 vendor/lib/libsnamrwb.so
 vendor/lib/libsnap_vndk.so
 vendor/lib/libsnapdragoncolor-manager.so
@@ -2160,7 +2056,6 @@ vendor/lib/vendor.qti.hardware.vpp@1.3.so
 vendor/lib/vendor.qti.hardware.vpp@2.0.so
 vendor/lib/vendor.qti.spu@1.0.so
 vendor/lib/vendor.qti.spu@1.1.so
-vendor/lib/vendor.samsung.hardware.audio@1.0.so
 vendor/lib/vendor.samsung.hardware.biometrics.face@2.0.so
 vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so
 vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
@@ -2170,8 +2065,6 @@ vendor/lib/vendor.samsung.hardware.hqm@1.0.so
 vendor/lib/vendor.samsung.hardware.snap@1.0.so
 vendor/lib/vendor.samsung.hardware.snap@1.1.so
 vendor/lib/vendor.samsung.hardware.snap@1.2.so
-vendor/lib64/hw/audio.sec_primary.default.so
-vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
@@ -2245,11 +2138,8 @@ vendor/lib64/libarcsoft_picportrait_video.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_video_super_night.so
 vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudioparsers.so
-vendor/lib64/libbase64.so
 vendor/lib64/libbatching.so
 vendor/lib64/libbeautyshot.arcsoft.so
 vendor/lib64/libbthost_if.so
@@ -2359,7 +2249,6 @@ vendor/lib64/libmemutils.so
 vendor/lib64/libmeters.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
-vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal.so
 vendor/lib64/libmpp.so
 vendor/lib64/libmpp_common.so
@@ -2434,13 +2323,10 @@ vendor/lib64/libsecure_storage.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsegmentationeffect.uniplugin@1.0.so
 vendor/lib64/libsegmentationeffect_capture.uniplugin@1.0.so
-vendor/lib64/libsfplugin_ccodec_utils.so
 vendor/lib64/libshotsuggestion.so
 vendor/lib64/libshotsuggestion_engines.so
 vendor/lib64/libsmartfocus_interface.so
-vendor/lib64/libsmemlog.so
 vendor/lib64/libsnaace.so
-vendor/lib64/libsnamrnb.so
 vendor/lib64/libsnamrwb.so
 vendor/lib64/libsnap_compute.so
 vendor/lib64/libsnap_compute_wrapper.so
@@ -2459,7 +2345,6 @@ vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
 vendor/lib64/libsocial_image_enhancement.uniplugin@1.0.so
 vendor/lib64/libsoft_attestation_cert.so
-vendor/lib64/libsomxcmn.so
 vendor/lib64/libspl.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssd.so
@@ -2505,7 +2390,6 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 vendor/lib64/vendor.qti.spu@1.0.so
 vendor/lib64/vendor.qti.spu@1.1.so
-vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 vendor/lib64/vendor.samsung.hardware.biometrics.face@2.0.so
 vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
 vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so
