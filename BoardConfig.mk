@@ -102,7 +102,6 @@ TARGET_COPY_OUT_ODM := odm
 
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
-BOARD_USES_QCOM_HARDWARE := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
