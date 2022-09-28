@@ -790,6 +790,7 @@ vendor/lib/libEGL_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libdisplaydebug.so
 vendor/lib/libdrmutils.so
+vendor/lib/libdrm.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
@@ -852,6 +853,7 @@ vendor/lib64/libEGL_adreno.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdrmutils.so
+vendor/lib64/libdrm.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
