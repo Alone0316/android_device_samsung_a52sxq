@@ -263,7 +263,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    android.hardware.vibrator-service.a52sxq
 
-# Usb debugging
+# Usb
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3-service-qti
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=log \
     ro.secure=0 \
