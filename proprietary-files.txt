@@ -1576,7 +1576,6 @@ vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor_flash_recovery.rc
-vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_qcom_wcn6750.rc
 vendor/etc/locale/plmn_delta_eng.bin
