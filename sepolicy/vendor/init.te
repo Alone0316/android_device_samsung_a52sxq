@@ -1,7 +1,9 @@
-allow init sysfs:file { open  write };
+allow init sysfs:file { open read write };
 allow init vendor_file:dir create;
 allow kernel sysfs:file { open  read };
 # For mount tracefs tracefs /sys/kernel/tracing
 allow init debugfs_tracing_debug:dir mounton;
 allow init proc_sched:file getattr;
+allow init hwservicemanager:binder { call };
+allow init hal_health_hwservice:hwservice_manager find;
 
