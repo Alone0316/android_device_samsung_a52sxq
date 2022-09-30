@@ -111,7 +111,9 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor \
     libhidltransport \
-    libhidltransport.vendor
+    libhidltransport.vendor \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
