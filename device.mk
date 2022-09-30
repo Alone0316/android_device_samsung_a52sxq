@@ -242,6 +242,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0.vendor
+
 # Usb debugging
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=log \
