@@ -6,4 +6,6 @@ allow init debugfs_tracing_debug:dir mounton;
 allow init proc_sched:file getattr;
 allow init hwservicemanager:binder { call };
 allow init hal_health_hwservice:hwservice_manager find;
-
+allow init vendor_sysfs_gpu_max_clock:file write;
+allow init vendor_sysfs_devfreq:file { open read write };
+allow init servicemanager:binder { call  transfer };
