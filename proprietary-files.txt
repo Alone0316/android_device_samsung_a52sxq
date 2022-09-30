@@ -1206,10 +1206,7 @@ vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors@2.0-service.multihal
 vendor/bin/sscrpcd
-vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc
-vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib/libssc.so
