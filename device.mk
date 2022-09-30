@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.a52sxq
 
+# Media
+PRODUCT_PACKAGES += \
+    android.hardware.common-V1-ndk_platform
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
