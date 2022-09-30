@@ -122,6 +122,22 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
     libkeymaster4_1support.vendor
 
+# Media
+PRODUCT_PACKAGES += \
+    android.hardware.common-V1-ndk_platform
+
+# Minijail
+PRODUCT_PACKAGES += \
+    libminijail \
+    libavservices_minijail \
+    libavservices_minijail_vendor \
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_soft_common.vendor \
+    libsfplugin_ccodec_utils.vendor \
+    libstagefright_softomx.vendor \
+    libstagefright_omx.vendor
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

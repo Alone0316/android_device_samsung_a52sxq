@@ -954,7 +954,6 @@ vendor/lib/libsavscmn.so
 vendor/lib/libstagefright_bufferqueue_helper_vendor.so
 vendor/lib/libstagefright_omx_vendor.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstagefrighthw.so
 vendor/lib/vintf-codecsolution-V2-ndk_platform.so
 vendor/lib64/libMpeghSwEnc.so
@@ -1849,9 +1848,7 @@ vendor/lib/libcdfw.so
 vendor/lib/libcirrusspkrprot.so
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
-vendor/lib/libcodec2_hidl@1.1.so
 vendor/lib/libcodec2_simple_component.so
-vendor/lib/libcodec2_soft_common.so
 vendor/lib/libcolor-default.so
 vendor/lib/libcomprcapture.so
 vendor/lib/libcppf.so
@@ -2152,7 +2149,6 @@ vendor/lib64/libcapiv2vop.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
-vendor/lib64/libcodec2_hidl@1.1.so
 vendor/lib64/libcodec2_sec_aacdec.so
 vendor/lib64/libcodec2_sec_aacenc.so
 vendor/lib64/libcodec2_sec_amrnbdec.so
@@ -2165,7 +2161,6 @@ vendor/lib64/libcodec2_sec_soft_common.so
 vendor/lib64/libcodec2_sec_vc1dec.so
 vendor/lib64/libcodec2_simple_component.so
 vendor/lib64/libcodec2_soft_ac4dec.so
-vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_soft_eac3dec.so
 vendor/lib64/libcolor-default.so
 vendor/lib64/libcvp_util.so
