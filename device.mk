@@ -77,7 +77,6 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     android.hidl.memory.block@1.0 \
     android.hidl.memory.block@1.0.vendor \
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
