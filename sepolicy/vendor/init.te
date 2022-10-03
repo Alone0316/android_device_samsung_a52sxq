@@ -1,4 +1,4 @@
-allow init sysfs:file { open read write };
+allow init sysfs:file rw_file_perms;
 allow init vendor_file:dir create;
 allow kernel sysfs:file { open  read };
 
@@ -7,6 +7,9 @@ allow init debugfs_tracing_debug:dir mounton;
 allow init proc_sched:file getattr;
 allow init hwservicemanager:binder { call };
 allow init hal_health_hwservice:hwservice_manager find;
-allow init vendor_sysfs_gpu_max_clock:file write;
-allow init vendor_sysfs_devfreq:file { open read write };
+allow init vendor_sysfs_gpu_max_clock:file rw_file_perms;
+allow init vendor_sysfs_devfreq:file rw_file_perms;
 allow init servicemanager:binder { call  transfer };
+
+# /mnt/vendor/efs
+allow init efs_file:dir mounton;

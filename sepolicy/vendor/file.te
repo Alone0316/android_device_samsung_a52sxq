@@ -1,1 +1,3 @@
 type blkio, file_type;
+type sysfs_sensors, sysfs_type, fs_type;
+type sysfs_sensors_writable, sysfs_type, fs_type;
