@@ -195,6 +195,10 @@ PRODUCT_CHARACTERISTICS := nosdcard
 #No A/B
 AB_OTA_UPDATER := false
 
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
