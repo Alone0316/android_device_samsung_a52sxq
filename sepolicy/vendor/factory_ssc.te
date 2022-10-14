@@ -1,4 +1,7 @@
 type factory_ssc, domain;
 type factory_ssc_exec, exec_type, file_type, vendor_file_type;
 
+allow factory_ssc factory_ssc:netlink_socket { bind create read write };
+allow factory_ssc factory_ssc:qipcrtr_socket { create  getattr  read  setopt  write };
+
 init_daemon_domain(factory_ssc)
