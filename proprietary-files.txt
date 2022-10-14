@@ -1018,11 +1018,6 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/powerhint.xml
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd-client.so
@@ -1049,15 +1044,6 @@ vendor/lib/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/libqti-iopd-client.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
-
-# Power
-vendor/bin/hw/android.hardware.power.samsung-service
-vendor/lib/hw/power.default.so
-vendor/lib/libhypervintf.so
-vendor/lib/vendor.samsung.hardware.hyper-V2-ndk_platform.so
-vendor/lib64/hw/power.default.so
-vendor/lib64/libhypervintf.so
-vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 
 # QCC
 system_ext/lib/vendor.qti.hardware.qccvndhal@1.0.so
@@ -1412,7 +1398,6 @@ vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.hyper-service
 vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
@@ -1498,14 +1483,9 @@ vendor/etc/display/DPU670.xml
 vendor/etc/display/DPU720.xml
 vendor/etc/display/DPU7__.xml
 vendor/etc/display/advanced_sf_offsets.xml
-vendor/etc/hyper/config_chipset.json
-vendor/etc/hyper/config_hyper_permission.json
-vendor/etc/hyper/config_vendor.json
 vendor/etc/init/camera.unihal.rc
 vendor/etc/init/fingerprint_common.rc
 vendor/etc/init/hostapd.android.rc
-vendor/etc/init/hyper-default-sec.rc
-vendor/etc/init/init.audio.samsung.rc
 vendor/etc/init/init.fingerprint.rc
 vendor/etc/init/init.nfc.samsung.rc
 vendor/etc/init/init.qdmastats.rc
@@ -1521,7 +1501,6 @@ vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/init.vendor.sysfw.rc
 vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/init/pa_daemon_qsee.rc
-vendor/etc/init/power-default-sec.rc
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
@@ -1555,9 +1534,7 @@ vendor/etc/seccomp_policy/sxrhalservice.policy
 vendor/etc/secnvm/k250a_00000200.img
 vendor/etc/sysconfig/vendor-apex-allowlist.xml
 vendor/etc/vintf/manifest/deviceManifest.xml
-vendor/etc/vintf/manifest/hyper-default-sec.xml
 vendor/etc/vintf/manifest/manifest.xml
-vendor/etc/vintf/manifest/power-samsung.xml
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
