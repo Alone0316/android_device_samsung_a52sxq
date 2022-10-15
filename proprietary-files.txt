@@ -292,7 +292,6 @@ vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
-vendor/lib/vendor.samsung.hardware.thermal@1.0.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -478,7 +477,6 @@ vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
-vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -1379,7 +1377,6 @@ vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/add.pb
 vendor/bin/applypatch
 vendor/bin/athdiag
@@ -1483,7 +1480,6 @@ vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/init/wifi.rc
@@ -1511,7 +1507,6 @@ vendor/etc/sysconfig/vendor-apex-allowlist.xml
 vendor/etc/vintf/manifest/deviceManifest.xml
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
-vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
 vendor/etc/vintf/manifest_lahaina.xml
 vendor/etc/vintf/manifest_shima.xml
 vendor/etc/vintf/manifest_yupik.xml
