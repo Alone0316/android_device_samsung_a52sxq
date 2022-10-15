@@ -813,7 +813,6 @@ vendor/lib/libpdmapper.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libqcc_file_agent.so
 vendor/lib/libsemnativecarrierfeature.so
-vendor/lib/libwpa_client.so
 vendor/lib/vendor.qti.gnss@1.0.so
 vendor/lib/vendor.qti.gnss@1.1.so
 vendor/lib/vendor.qti.gnss@1.2.so
@@ -834,7 +833,6 @@ vendor/lib64/libpdmapper.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libsemnativecarrierfeature.so
-vendor/lib64/libwpa_client.so
 vendor/lib64/vendor.qti.gnss@1.0.so
 vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
@@ -1349,23 +1347,9 @@ vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Wi-Fi
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
-vendor/lib/libwifi-hal.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libucsengine.so
-vendor/lib64/libwifi-hal.so
-vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.1.so
 
 # Wi-Fi configs
 vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini
@@ -1374,10 +1358,7 @@ vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 vendor/etc/wifi/icm.conf
 vendor/etc/wifi/indoorchannel.info
-vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/vendor_cmd.xml
-vendor/etc/wifi/wpa_supplicant.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Wi-Fi firmware
 vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini
@@ -1400,7 +1381,6 @@ vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
 vendor/bin/add.pb
 vendor/bin/applypatch
 vendor/bin/athdiag
@@ -1455,7 +1435,6 @@ vendor/bin/ssr_setup
 vendor/bin/time_client
 vendor/bin/tloc_daemon
 vendor/bin/ubwcconvert
-vendor/bin/wifilearner
 vendor/etc/audconf/ODM/Bluetooth_cal.acdb
 vendor/etc/audconf/ODM/General_cal.acdb
 vendor/etc/audconf/ODM/Global_cal.acdb
@@ -1485,7 +1464,6 @@ vendor/etc/display/DPU7__.xml
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/init/camera.unihal.rc
 vendor/etc/init/fingerprint_common.rc
-vendor/etc/init/hostapd.android.rc
 vendor/etc/init/init.fingerprint.rc
 vendor/etc/init/init.nfc.samsung.rc
 vendor/etc/init/init.qdmastats.rc
@@ -1508,7 +1486,6 @@ vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.snap@1.2-service.rc
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/init/wifi.rc
@@ -1534,12 +1511,9 @@ vendor/etc/seccomp_policy/sxrhalservice.policy
 vendor/etc/secnvm/k250a_00000200.img
 vendor/etc/sysconfig/vendor-apex-allowlist.xml
 vendor/etc/vintf/manifest/deviceManifest.xml
-vendor/etc/vintf/manifest/manifest.xml
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
-vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml
 vendor/etc/vintf/manifest_lahaina.xml
 vendor/etc/vintf/manifest_shima.xml
 vendor/etc/vintf/manifest_yupik.xml
@@ -1949,8 +1923,6 @@ vendor/lib/libvpplibrary.so
 vendor/lib/libvpptestutils.so
 vendor/lib/libvpx.so
 vendor/lib/libwfdaac_vendor.so
-vendor/lib/libwifi-hal-ctrl.so
-vendor/lib/libwifi-hal-qcom.so
 vendor/lib/libwpa_drv_oem.so
 vendor/lib/libwqe.so
 vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so
@@ -2281,8 +2253,6 @@ vendor/lib64/libvpphvx.so
 vendor/lib64/libvppimmotion.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/libvpptestutils.so
-vendor/lib64/libwifi-hal-ctrl.so
-vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwpa_drv_oem.so
 vendor/lib64/libwqe.so
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
@@ -2308,7 +2278,4 @@ vendor/lib64/vendor.samsung.hardware.snap@1.0.so
 vendor/lib64/vendor.samsung.hardware.snap@1.1.so
 vendor/lib64/vendor.samsung.hardware.snap@1.2.so
 vendor/lib64/vendor.samsung.hardware.vibrator-V3-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.1.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.2.so
 vendor/tima_measurement_info
