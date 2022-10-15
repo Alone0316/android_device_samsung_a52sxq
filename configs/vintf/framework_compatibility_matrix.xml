@@ -1161,24 +1161,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.samsung.hardware.snap</name>
-        <version>1.2</version>
-        <interface>
-            <name>ISehSnap</name>
-            <instance>default</instance>
-            <instance>secsnap</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.samsung.hardware.snap</name>
-        <version>1.2</version>
-        <interface>
-            <name>ISehSnap</name>
-            <instance>default</instance>
-            <instance>secsnap</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.sysinput</name>
         <version>1.2</version>
         <interface>

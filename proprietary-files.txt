@@ -1379,7 +1379,6 @@ vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/add.pb
 vendor/bin/applypatch
@@ -1484,7 +1483,6 @@ vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.snap@1.2-service.rc
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor_flash_recovery.rc
@@ -1643,7 +1641,6 @@ vendor/gpu/kbc/unified_ksqs.bin
 vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
-vendor/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so
 vendor/lib/carwatchdog_aidl_interface-V2-ndk_platform.so
 vendor/lib/cdsp_face.so
 vendor/lib/com.qti.chiusecaseselector.so
@@ -1936,13 +1933,9 @@ vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
 vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so
 vendor/lib/vendor.samsung.hardware.hqm@1.0.so
-vendor/lib/vendor.samsung.hardware.snap@1.0.so
-vendor/lib/vendor.samsung.hardware.snap@1.1.so
-vendor/lib/vendor.samsung.hardware.snap@1.2.so
 vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
-vendor/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so
 vendor/lib64/carwatchdog_aidl_interface-V2-ndk_platform.so
 vendor/lib64/cdsp_face.so
 vendor/lib64/com.qti.chiusecaseselector.so
@@ -2274,8 +2267,5 @@ vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio@2.2.so
-vendor/lib64/vendor.samsung.hardware.snap@1.0.so
-vendor/lib64/vendor.samsung.hardware.snap@1.1.so
-vendor/lib64/vendor.samsung.hardware.snap@1.2.so
 vendor/lib64/vendor.samsung.hardware.vibrator-V3-ndk_platform.so
 vendor/tima_measurement_info
