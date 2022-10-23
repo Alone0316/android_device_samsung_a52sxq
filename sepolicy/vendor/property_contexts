@@ -1,2 +1,5 @@
+# Qseecom
+vendor.sys.qseecomd.enable          u:object_r:vendor_qseecomd_prop:s0
+
 # wifi
 vendor.wifi.                                     u:object_r:vendor_wifi_prop:s0
