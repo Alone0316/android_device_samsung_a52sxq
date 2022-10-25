@@ -344,6 +344,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/qcom/opensource/power/config/lahaina/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio.deprecated@1.0.vendor
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
