@@ -219,6 +219,8 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
+    libstagefright_omx \
+    libstagefright_foundation \
     android.hardware.common-V1-ndk_platform
 
 PRODUCT_COPY_FILES += \
