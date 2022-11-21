@@ -776,7 +776,6 @@ vendor/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc
 vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service-lazy.xml
 
 # Fingerprint
-vendor/lib/hw/fingerprint.default.so
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libegis_fp_normal_sensor_test.so
@@ -784,7 +783,6 @@ vendor/lib/libgf_in_system_lib.so
 vendor/lib/libqfp_sensortest.so
 vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 vendor/lib64/libegis_fp_normal_sensor_test.so
@@ -1010,7 +1008,6 @@ vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/macloader
 vendor/bin/hw/rild
 vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service
-vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
 vendor/bin/i2cdetect
@@ -1100,7 +1097,6 @@ vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/init/pa_daemon_qsee.rc
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc

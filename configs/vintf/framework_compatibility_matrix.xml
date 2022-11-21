@@ -45,6 +45,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>android.hardware.biometrics.fingerprint</name>
+        <version>2.3</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+	</interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>android.hardware.biometrics.face</name>
         <version>1.0</version>
         <interface>
@@ -1049,14 +1057,6 @@
         <version>2.0</version>
         <interface>
             <name>ISehBiometricsFace</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.samsung.hardware.biometrics.fingerprint</name>
-        <version>3.0</version>
-        <interface>
-            <name>ISehBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
     </hal>
