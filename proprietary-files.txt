@@ -774,11 +774,6 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
-# Dumpstate
-vendor/bin/hw/android.hardware.dumpstate@1.1-service-lazy
-vendor/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service-lazy.xml
-
 # Fingerprint
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
@@ -915,20 +910,6 @@ vendor/etc/media_profiles_yupik_v0.xml
 vendor/etc/media_profiles_yupik_v1.xml
 
 # Media (OMX)
-etc/seccomp_policy/mediacodec.policy
-lib/libQSEEComAPI_system.so
-lib/libdatasource.so
-lib/libdatasource_local_cache.so
-lib/libdmabufheap.so
-lib/libhdcp2.so
-lib/libomafldrm.so
-lib/libsavscmn.so
-lib64/libQSEEComAPI_system.so
-lib64/libdatasource.so
-lib64/libdatasource_local_cache.so
-lib64/libdmabufheap.so
-lib64/libomafldrm.so
-lib64/libsavscmn.so
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/lib/libFrucSSMLib.so
