@@ -65,9 +65,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbthost_if \
     libbthost_if.vendor \
-    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.bluetooth@1.0.vendor
+    android.hardware.bluetooth@1.0.vendor \
+    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 # Display
 PRODUCT_PACKAGES += \
