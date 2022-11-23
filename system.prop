@@ -101,7 +101,6 @@ qemu.hw.mainkeys=0
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.actionable_compatible_property.enabled=true
-ro.bluetooth.library_name=libbluetooth_qti.so
 ro.camerax.extensions.enabled=true
 ro.charger.enable_suspend=1
 ro.config.rm_preload_enabled=1
