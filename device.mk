@@ -359,7 +359,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0 \
-    android.hardware.radio.deprecated@1.0.vendor
+    android.hardware.radio.deprecated@1.0.vendor \
+    librmnetctl \
+    libprotobuf-cpp-full \
+    libxml2
 
 # Telephony
 PRODUCT_PACKAGES += \
