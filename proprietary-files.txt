@@ -129,8 +129,6 @@ system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Camera
-system_ext/lib/vendor.qti.hardware.seccam@1.0.so
-system_ext/lib64/vendor.qti.hardware.seccam@1.0.so
 vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl.so
 vendor/lib/camera.device@3.3-impl.so
@@ -261,6 +259,7 @@ vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libcvp2_1.so
 vendor/lib/libcvp_common.so
 vendor/lib/libdiag.so
+vendor/lib/libgralloc.qti.so
 vendor/lib/libgrallocusage.so
 vendor/lib/libmmcamera_bestats.so
 vendor/lib/libmmcamera_cac3.so
@@ -278,6 +277,7 @@ vendor/lib/libqcwrappercommon.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_encdec.so
+vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/libscveCommon.so
 vendor/lib/libscveCommon_stub.so
 vendor/lib/libscveObjectSegmentation.so
@@ -430,6 +430,7 @@ vendor/lib64/com.qti.stats.common.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/camera.unihal.default.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libc++_shared.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
@@ -445,6 +446,7 @@ vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcvp2_1.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libdiag.so
+vendor/lib64/libgralloc.qti.so
 vendor/lib64/libgrallocusage.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
@@ -462,6 +464,7 @@ vendor/lib64/libqcwrappercommon.so
 vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_encdec.so
+vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveCommon_stub.so
 vendor/lib64/libscveObjectSegmentation.so
@@ -477,6 +480,7 @@ vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libuniplugin.so
+vendor/lib64/libhal.wsm.samsung.so
 vendor/lib64/libxml.so
 vendor/lib64/unihal_cutils@2.1.so
 vendor/lib64/unihal_main@2.1.so
