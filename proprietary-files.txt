@@ -1116,8 +1116,6 @@ vendor/etc/plmn_delta_attaio.bin
 vendor/etc/plmn_delta_hktw.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
-vendor/etc/public.libraries.txt
-vendor/etc/public.libraries.txt.backup
 vendor/etc/sap.conf
 vendor/etc/sec_audio_volume_curve.xml
 vendor/etc/sec_config
