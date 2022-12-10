@@ -395,6 +395,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 30
+
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v30.so
+
 # Vibrator
 PRODUCT_PACKAGES += \
    android.hardware.vibrator-service.a52sxq
