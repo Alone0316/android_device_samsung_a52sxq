@@ -58,4 +58,15 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
+# Fix patch camera
+BLOB_ROOT="$ANDROID_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+function blob_fixup() {
+    case "${1}" in
+	vendor/lib64/hw/camera.qcom.so)
+	    sed -i 's/ro.boot.flash.locked/ro.camera.notify_nfc/g' "${2}"
+	    ;;
+    esac
+}
+
 "${MY_DIR}/setup-makefiles.sh"
