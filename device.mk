@@ -255,6 +255,14 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     libstagefright_omx.vendor
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.samsung \
+    libnfc-nci \
+    libnfc_nci_jni \
+    NfcNci \
+    Tag
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
