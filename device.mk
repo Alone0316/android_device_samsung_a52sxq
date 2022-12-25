@@ -255,6 +255,10 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     libstagefright_omx.vendor
 
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.samsung \
