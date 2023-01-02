@@ -231,6 +231,7 @@ vendor.pasr.activemode.enabled=true
 vendor.power.pasr.enabled=true
 vendor.qcom.bluetooth.soc=moselle
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+ro.telephony.default_network=33,33
 vendor.usb.diag.func.name=ffs
 vendor.usb.use_ffs_mtp=1
 vendor.voice.path.for.pcm.voip=true

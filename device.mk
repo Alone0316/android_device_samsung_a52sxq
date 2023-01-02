@@ -383,6 +383,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.broadcastradio@1.0 \
+    android.hardware.broadcastradio@1.0.vendor \
+    android.hardware.broadcastradio@1.1 \
+    android.hardware.broadcastradio@1.1.vendor \
     librmnetctl \
     libprotobuf-cpp-full \
     libxml2
