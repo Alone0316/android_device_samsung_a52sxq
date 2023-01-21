@@ -1477,8 +1477,6 @@ vendor/lib/libsystem_health_mon.so
 vendor/lib/libtad.so
 vendor/lib/libtfestriping.so
 vendor/lib/libthirdparty_zoomtranslator_imp.so
-vendor/lib/libtinyxml.so
-vendor/lib/libtinyxml2_1.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libvdis_core.so
 vendor/lib/libvdis_interface.so
@@ -1798,8 +1796,6 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libtad.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthirdparty_zoomtranslator_imp.so
-vendor/lib64/libtinyxml.so
-vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libtvm_runtime.so
 vendor/lib64/libtvm_wrapper.so
 vendor/lib64/libtzdrmgenprov.so

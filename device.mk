@@ -76,6 +76,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libqdMetaData \
     libtinyxml \
+    libtinyxml2 \
     libsdmutils \
     libsdmcore \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
